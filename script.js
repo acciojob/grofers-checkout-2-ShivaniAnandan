@@ -13,5 +13,3 @@ var table = document.querySelector('table');
  child.textContent = sum;
  lastRow.appendChild(child);
  table.appendChild(lastRow);
-
-getSumBtn.addEventListener("click", getSum)
